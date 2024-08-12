@@ -1,9 +1,9 @@
 import SwiftUI
 
-struct ContentView: View {
+struct TopPage: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "home")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
@@ -13,5 +13,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    TopPage()
 }

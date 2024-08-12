@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		16D5F3872C69B61A0060DD0F /* KpopAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5F3862C69B61A0060DD0F /* KpopAppApp.swift */; };
-		16D5F3892C69B61A0060DD0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5F3882C69B61A0060DD0F /* ContentView.swift */; };
+		16D5F3892C69B61A0060DD0F /* TopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5F3882C69B61A0060DD0F /* TopPage.swift */; };
 		16D5F38B2C69B61B0060DD0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D5F38A2C69B61B0060DD0F /* Assets.xcassets */; };
 		16D5F38E2C69B61B0060DD0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D5F38D2C69B61B0060DD0F /* Preview Assets.xcassets */; };
 		16D5F3982C69B61C0060DD0F /* KpopAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5F3972C69B61C0060DD0F /* KpopAppTests.swift */; };
 		16D5F3A22C69B61C0060DD0F /* KpopAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5F3A12C69B61C0060DD0F /* KpopAppUITests.swift */; };
 		16D5F3A42C69B61C0060DD0F /* KpopAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5F3A32C69B61C0060DD0F /* KpopAppUITestsLaunchTests.swift */; };
+		16D5F3B12C69BD680060DD0F /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5F3B02C69BD680060DD0F /* ProfilePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		16D5F3832C69B61A0060DD0F /* KpopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KpopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D5F3862C69B61A0060DD0F /* KpopAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpopAppApp.swift; sourceTree = "<group>"; };
-		16D5F3882C69B61A0060DD0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16D5F3882C69B61A0060DD0F /* TopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPage.swift; sourceTree = "<group>"; };
 		16D5F38A2C69B61B0060DD0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16D5F38D2C69B61B0060DD0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		16D5F3932C69B61C0060DD0F /* KpopAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KpopAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		16D5F39D2C69B61C0060DD0F /* KpopAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KpopAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D5F3A12C69B61C0060DD0F /* KpopAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpopAppUITests.swift; sourceTree = "<group>"; };
 		16D5F3A32C69B61C0060DD0F /* KpopAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpopAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		16D5F3B02C69BD680060DD0F /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				16D5F3862C69B61A0060DD0F /* KpopAppApp.swift */,
-				16D5F3882C69B61A0060DD0F /* ContentView.swift */,
+				16D5F3882C69B61A0060DD0F /* TopPage.swift */,
+				16D5F3B02C69BD680060DD0F /* ProfilePage.swift */,
 				16D5F38A2C69B61B0060DD0F /* Assets.xcassets */,
 				16D5F38C2C69B61B0060DD0F /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D5F3892C69B61A0060DD0F /* ContentView.swift in Sources */,
+				16D5F3B12C69BD680060DD0F /* ProfilePage.swift in Sources */,
+				16D5F3892C69B61A0060DD0F /* TopPage.swift in Sources */,
 				16D5F3872C69B61A0060DD0F /* KpopAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
